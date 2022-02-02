@@ -1,7 +1,7 @@
 // package sparsematrix;
-import java.io. * ;
-import java.text. * ;
-import java.util. * ;
+import java.io.* ;
+import java.text.* ;
+import java.util.* ;
 
 class Node {
 
