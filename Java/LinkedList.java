@@ -28,7 +28,7 @@ public class LinkedList {
         }
     }
 	
-	//method to insert at the start of the linkedList
+    //method to insert at the start of the linkedList
     public void insertAtHead(double num) {
         Node node = new Node(); //creating a new node
         node.num = num;
@@ -72,7 +72,7 @@ public class LinkedList {
 
     }
 	
-    //mehtod to display all nodes in the linkedList
+    //method to display all nodes in the linkedList
     public void show() {
         Node n = head;
         double i;
@@ -85,7 +85,7 @@ public class LinkedList {
         System.out.println("Position " + i + " => " + n.num); //numero rimanente
     }
 	
-    //method to find a node. 
+    //method to find a node
     public boolean find(double match) {
         Node n = head;
         //transversing throgh the linked List. 
@@ -117,6 +117,7 @@ public class LinkedList {
         return head.internalRecursiveSearch(match);
     }
 
+    //method that allow us to clone a list
     LinkedList cloneList() {
         Node current = head;
         LinkedList newList = new LinkedList();
@@ -127,7 +128,7 @@ public class LinkedList {
 
         return newList;
     }
-
+    //main driver
     public static void main(String[] args) {
         //testing enqueue and Dequeue in simple Linked List
         LinkedList l1 = new LinkedList();
